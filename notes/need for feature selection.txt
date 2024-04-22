@@ -1,0 +1,24 @@
+Why do we need to engineer features or select features?
+
+easier to:
+    interpret
+    deploy
+    train
+enhanced generalisation by reducing overfitting
+reduce redundancy
+
+Why we need to select features?
+
+smaller json messages sent over to the model
+Less lines of code for error handling
+Less logging'
+
+
+Variable redundancy:
+Duplicates
+Highly correlated
+Constant value
+Quasi constant values
+
+
+

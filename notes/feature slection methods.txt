@@ -1,0 +1,15 @@
+Filter methods
+
+Pros: Model agnostic, quick feature removal, fast computation
+Cons: Does not capture redundancy or correlation because it looks at features one by one. Can lead to poor performance of models
+
+
+Wrapper method
+
+Pros: Looks at interaction, considers ml models, evaluates group of methods, finds the best feature combination for a given models
+
+Cons: Not model agnostic hence requires feature computation for each model and hence becomes more expensive.
+
+Embedded methods 
+Pros: Consider feature correlation and performs better than filter method 
+Cons- Not model selection
