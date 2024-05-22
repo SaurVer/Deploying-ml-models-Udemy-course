@@ -1,0 +1,11 @@
+Do basic data familiarisation
+remove the id column
+Separated numerical and object type columns
+In numerical checked for continuous and discrete cariables
+TF -- In each of these, cheked for null values, for continuous variables having null added median to fillna.
+Discrete variables does not have null values, if it was there then fillna with mode
+
+TF-Checked the distribution of continuous variable and do log transformation of yeo-johnshon transformation or 
+some other transformation to make the distribution more gaussian. transformed Fare to make it more gaussian.
+
+Plot discrete variables. bar of sns

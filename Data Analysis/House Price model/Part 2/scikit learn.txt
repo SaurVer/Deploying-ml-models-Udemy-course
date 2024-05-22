@@ -1,0 +1,55 @@
+Has three classes:
+
+1) Estimators- A class with fit() and predict() methods. Ex: Lasso, Decision treees, SVMs are coded as estimators.
+
+2) Transformers- fit() and transform() methods. Ex: Scalers, Feature selectors, Encoders, Imputers, Discretizers, Transformers
+
+3) Pipeline - Allows to run transformers and estimators in sequence
+
+Most steps are Transformers
+Lat step can be Estimator
+
+
+Libraries: scikit learn, Category Encoders, Feature engine, Feature tools,scikit imbalanced learn, ml extend
+
+
+Transformers:
+
+Missing Data Imputation:
+
+SimpleImputer
+IterativeImputer
+
+Categorical Variable Encoding
+
+OneHotEncoder
+OrdinalEncoder
+
+Scalers
+
+Standard Scalers
+MinMaxScaler
+Robust Scaler
+
+Discretisation
+
+KBinDiscretizer
+
+
+Variable transformation
+
+Power Transformers
+Function Transformers
+
+Variable Combination
+
+Polynomial Features
+
+Text
+
+Word Count
+TFiDF
+
+
+
+
